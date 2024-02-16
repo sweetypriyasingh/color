@@ -1,0 +1,153 @@
+*{
+
+margin: 0px;
+padding: 0px;
+
+}
+
+.maindiv{
+    position: relative;
+	width: 100%;
+	height: 600px;
+	background-image: url(img/p1.jpg);
+	background-size: cover;
+
+
+}
+
+
+.services{padding-top: 7px; 
+
+/* background-color: red; */}
+ 
+
+
+.service_title{
+	font-size: 35px;
+	font-weight: bold;
+	font-family: inherit;
+	text-align: center;
+	color: #1d0ff4;
+
+}
+.thirdparent{
+	margin-bottom: 50px;
+	display: flex;
+	width:100%;
+	justify-content: space-between;
+	
+
+}
+.t1{
+	width:30%;
+
+}
+.t2{
+	padding: 5px;
+	margin-top: 50px;
+	width:50%;
+	border:2px solid black; 
+	height:420px;
+}
+.t3{
+	
+	width:30%;
+	
+	
+}
+.img1{
+	width:31.2%;
+	height: 200px;
+	margin: 3px;
+	opacity:0.99 ;
+}
+.img1:hover{
+	opacity:1 ;
+	width: 30%;
+	border-radius: 7px;
+}
+.footerparent{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    width: 98%;
+    height: 320px;
+    background-image: url(img/b11.webp);
+    background-size: cover;
+}
+
+.footer1 p{
+    color:yellow;
+	font-weight:bolder;
+	font-size: 30px;
+	font-family: inherit;
+
+}
+.footer1{
+	color:#fff;
+	width:30%;
+	height: 300px;
+	padding-left: 4px;
+	margin-right: 180px;
+	box-sizing: border-box;
+}
+.footer1 ul li{
+	margin-top: 12px;
+	margin-right: 20px;
+	color:#17e8df;
+	font-size: 20px;
+	width:20%;
+	font-weight: bold;
+}
+.socialicon{
+	margin-left: 250px;
+    color: red;
+    text-align: center;
+
+}
+.socialicon span{
+	border-radius: 2px;
+	font-size: 24px;
+	width: 25px;
+	margin-left: 15px;
+}
+.content{
+	    margin-top: 50px;
+	    text-align: center;
+	    font-size: 27px;
+	    text-shadow: 1px 1px yellow;
+	    color: red;
+	    font-family: cursive;
+	}
+
+
+.socialicon span:hover{
+	transform:rotate(360deg);
+	transition-timing-function: linear;
+	transition-duration: 0.5s;
+
+}
+.holi1{
+	color: blue; font-size: 100px; font-family: inherit; margin-left: 150px; padding-top: 40px; font-weight: bold; 
+	animation: holi1 10s infinite;
+}
+.holi2{
+	color: purple; font-size: 80px; font-family: inherit; margin-left: 40px;
+	animation: holi2 10s infinite;
+}
+
+
+@keyframes holi1 {
+	0%{color: red;}
+	25%{color: yellow;}
+	50%{color: blue;}
+	100%{color: black;}
+}
+
+@keyframes holi2 {
+	0%{color: blue;}
+	25%{color: red;}
+	50%{color: purple;}
+	100%{color: yellow;}
+}	
+
